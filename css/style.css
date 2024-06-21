@@ -1,0 +1,33 @@
+
+
+
+
+.body{
+    background-color: #243966;
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.search_bar{
+    position: absolute;
+    width: 200%;
+    left: 40%;
+    top: 30%;
+    display: flex;
+
+}
+
+.input1{
+    width: 200px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.input2{
+    width: 100%;
+    font-size: 20px;
+}
