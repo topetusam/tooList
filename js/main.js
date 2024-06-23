@@ -6,6 +6,14 @@ const check = 'fa-check-circle'
 const uncheck = 'fa-circle'
 const lineThrough = 'line-through'
 let id=0
+
+
+
+//creacion de fecha
+
+const FECHA = new Date()
+fecha.innerHTML = FECHA.toLocaleDateString('es-CO', {weekday:'long', month:'short',day:'numeric'})
+
 //Funcion Agregar tarea
 
 function agregar (tarea,id,realizado,eliminado) {
