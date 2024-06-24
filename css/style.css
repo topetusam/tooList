@@ -39,13 +39,29 @@
     padding: 10px;
     border-radius: 10px;
 }
+.input1 input:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra al hacer hover */
+    transform: scale(1.02); /* Escalado al hacer hover */
+    cursor: pointer;
+    
+}
+
 
 .input2 input{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #aa4c4c;
+}
+
+
+.input2 input:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra al hacer hover */
+    transform: scale(1.02); /* Escalado al hacer hover */
     cursor: pointer;
+    background-color: #db1d1d;
+
+    
 }
 
 
@@ -84,6 +100,7 @@
 .secciontareas li:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra al hacer hover */
     transform: scale(1.02); /* Escalado al hacer hover */
+    background-color: hwb(0 20% 52% / 0.329);
 }
 
 .secciontareas p {
