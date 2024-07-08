@@ -32,7 +32,7 @@ function agregar(tarea, id, realizado, eliminado) {
 // Función para obtener todas las tareas de MockAPI
 async function fetchTasks() {
     try {
-        const response = await fetch('https://667846bd0bd45250561e1d21.mockapi.io/task');
+        const response = await fetch('https://6674179975872d0e0a950e53.mockapi.io/todoList');
         if (!response.ok) {
             throw new Error('Failed to fetch tasks');
         }
@@ -64,7 +64,7 @@ async function tareaRealizada(element) {
 // Función para actualizar el estado de una tarea en MockAPI
 async function updateTaskStatus(id, status) {
     try {
-        const response = await fetch(`https://667846bd0bd45250561e1d21.mockapi.io/task/${id}`, {
+        const response = await fetch(`https://6674179975872d0e0a950e53.mockapi.io/todoList/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ async function tareaEliminada(element) {
 // Función para eliminar una tarea de MockAPI
 async function deleteTask(id) {
     try {
-        const response = await fetch(`https://667846bd0bd45250561e1d21.mockapi.io/task/${id}`, {
+        const response = await fetch(`https://6674179975872d0e0a950e53.mockapi.io/todoList/${id}`, {
             method: 'DELETE',
         });
         if (!response.ok) {
@@ -127,7 +127,7 @@ document.addEventListener('keyup', function (event) {
 // Función para agregar una tarea a MockAPI
 async function addTask(task, status) {
     try {
-        const response = await fetch('https://667846bd0bd45250561e1d21.mockapi.io/task', {
+        const response = await fetch('https://6674179975872d0e0a950e53.mockapi.io/todoList', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
